@@ -1,12 +1,17 @@
 
-    <div class="container text-center">
-        <div class="row">
-            <div class="col">
-                <mat-slide-toggle></mat-slide-toggle>
-                <span class="p-2">TESTAR API</span>
-                <textarea [(ngModel)]="valorID"></textarea>
-                <button (click)="chamarAPI(valorID)"></button>
-            </div>
+
+   <div class="container text-center vh-100">
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-light bg-light justify-content-center">
+                <a class="navbar-brand ml-2">Brawlhalla</a>
+                <form class="form-inline">
+                  <input class="" type="search" placeholder="Buscar ID Brawlhalla" [(ngModel)]="valorID" name="valorID" >
+                  <button class="btn btn-outline-success m-2" type="submit" (click)="chamarAPI(valorID)">Buscar</button>
+                </form>
+              </nav>
         </div>
     </div>
+   </div>
+
 

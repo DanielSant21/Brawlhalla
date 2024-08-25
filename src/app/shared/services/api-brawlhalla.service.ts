@@ -17,6 +17,10 @@ export class APIBrawlhallaService {
     return this.http.get<any>(`${this.pathAPI}${id}`);
   }
 
+  pegaDadosAPI(dados: Observable<any>){
+    
+  }
+
   testaService(){
     console.log(`SERVICE FUNCIONANDO!`);
   }
