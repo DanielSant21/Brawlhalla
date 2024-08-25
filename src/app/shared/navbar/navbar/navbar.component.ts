@@ -27,7 +27,7 @@ valorID: any;
           console.error('Erro ao chamar a API:', error);
         }
       );
-      console.log(id);
+      console.log('ID Brawlhalla: '+ id);
     }
 
 }
