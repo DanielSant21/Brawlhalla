@@ -2,8 +2,8 @@ import { Clan } from "./clan";
 import { Lenda } from "./lenda";
 
 export interface Data {
-    brawlhalla_id: number;
-    clan: Clan;
+    brawlhalla_id: string;
+    clan?: Clan;
     damagebomb: string;
     damagemine: string;
     damagesidekick: string;
